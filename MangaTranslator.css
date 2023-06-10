@@ -1,0 +1,23 @@
+.manga-translator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.manga-translator input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.manga-translator button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.manga-translator .translated-content {
+  margin-top: 10px;
+  font-size: 18px;
+}
